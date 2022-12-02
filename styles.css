@@ -41,9 +41,9 @@ h3 {
   font-size: 1.5em;
 }
 
-#flex-container {
+#container {
   display: flex;
-  max-width: 1345px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -59,18 +59,30 @@ h3 {
   display: inline-block;
 }
 
-#local img {
+#container section img {
   max-width: 100%;
   display: block;
   max-height: 900px;
 }
 
-#chef img {
-  max-width: 100%;
+#container section h3 {
   display: block;
-  max-height: 900px;
+  max-width: 100%;
 }
 
-section h3 {
-  display: block;
+#container section {
+  margin: 8px;
+}
+
+#container section p {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-style: italic;
 }
