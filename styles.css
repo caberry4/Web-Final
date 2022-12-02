@@ -37,6 +37,40 @@ h3 {
   margin-top: -16px;
 }
 
-#catertext {
+.h3weight {
   font-size: 1.5em;
+}
+
+#flex-container {
+  display: flex;
+  max-width: 1345px;
+  margin: 0 auto;
+}
+
+#local {
+  /* flex: left; */
+  max-width: 50%;
+  display: inline-block;
+}
+
+#chef {
+  /* flex: right; */
+  max-width: 50%;
+  display: inline-block;
+}
+
+#local img {
+  max-width: 100%;
+  display: block;
+  max-height: 900px;
+}
+
+#chef img {
+  max-width: 100%;
+  display: block;
+  max-height: 900px;
+}
+
+section h3 {
+  display: block;
 }
