@@ -1,119 +1,9 @@
 * {
-  /* border: 1px solid red; */
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: white;
-  box-sizing: border-box;
-}
-
-h1 {
-  margin: 20px auto;
-  width: 330px;
-  font-size: 2.5em;
-}
-
-nav {
-  width: 1000px;
-  border: 0;
-  margin: 0 auto;
-}
-
-nav ul {
-  display: block;
-  height: 50px;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0px 80px;
-  height: 100%;
-}
-
-nav a:hover {
-  color: red;
-}
-
-nav a {
-  /* display: block; */
-  font-weight: bold;
-  margin: 0;
-  color: steelblue;
-  text-decoration: none;
-}
-
-#modernimg {
-  width: 100%;
-}
-
-#menu {
-  text-decoration: none;
-  font-weight: bolder;
-  color: cadetblue;
-  font-size: 2em;
-}
-
-h2 {
-  text-align: center;
-  margin: 0 auto;
-}
-h3 {
-  padding-top: 1.5rem;
-}
-
-.centertext {
-  text-align: center;
-}
-
-#callus {
-  margin-top: -16px;
-}
-
-.h3weight {
-  font-size: 1.5em;
-}
-
-#container {
-  display: flex;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-#container section img {
-  max-width: 100%;
-  display: block;
-  max-height: 900px;
-}
-
-#container section h3 {
-  display: block;
-  max-width: 100%;
-}
-
-#container section {
-  margin: 8px;
-  max-width: 48%;
-  display: inline-block;
-}
-
-#container section p {
-  max-width: 100%;
-  margin: 0;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding-top: 50px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* Form Styles */
-
-* {
   box-sizing: border-box;
 }
 
 form {
-  background-color: teal;
+  background-color: rgba(240, 148, 31, 0.6);
   width: 350px;
   margin: 16px auto;
   padding: 16px;
@@ -232,8 +122,4 @@ input[type="radio"]:focus {
 
 input[type="radio"]:focus + label::before {
   box-shadow: 0 0 0 2px #196774;
-}
-
-label {
-  background-color: teal;
 }
