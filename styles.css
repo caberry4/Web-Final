@@ -214,9 +214,9 @@ input[type="radio"] + label::before {
   width: 22px;
   text-align: center;
   margin-right: 16px;
-  border: 2px solid white;
+  border: 2px solid teal;
   /* Push focus shadow away */
-  background-color: #fff;
+  background-color: teal;
   padding-bottom: 2px;
 }
 
@@ -237,3 +237,14 @@ input[type="radio"]:focus + label::before {
 label {
   background-color: teal;
 }
+
+#contactemail {
+  background-color: white;
+}
+
+#contactphone {
+  background-color: white;
+}
+
+legend {
+  background-color: teal;
