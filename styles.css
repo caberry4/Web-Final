@@ -27,11 +27,15 @@ nav ul li {
 }
 
 nav a:hover {
-  background-color: black;
+  color: red;
 }
 
+/* nav ul a:active {
+  background-color: #c4a484;
+} */
+
 nav a {
-  display: block;
+  /* display: block; */
   font-weight: bold;
   margin: 0;
   color: steelblue;
