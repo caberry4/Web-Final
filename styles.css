@@ -1,10 +1,15 @@
 * {
-  /* border: 1px solid red; */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: white;
   box-sizing: border-box;
 }
 
+#contactmain {
+  background-image: url("/contact-page/contact-img-optional2.jpg");
+}
+
+.activetab {
+  background-color: red;
+}
 h1 {
   margin: 20px auto;
   width: 330px;
@@ -14,17 +19,13 @@ h1 {
 nav {
   width: 1000px;
   border: 0;
-  margin: 0 auto;
+  margin: 30px auto 40px auto;
 }
 
-nav ul {
-  display: block;
-  height: 50px;
-}
+
 nav ul li {
   display: inline-block;
-  margin: 0px 80px;
-  height: 100%;
+  margin: 0px 70px;
 }
 
 nav a:hover {
@@ -32,11 +33,12 @@ nav a:hover {
 }
 
 nav a {
-  /* display: block; */
   font-weight: bold;
   margin: 0;
-  color: steelblue;
+  color: teal;
   text-decoration: none;
+   background-color: whitesmoke;
+   padding: 15px;
 }
 
 #modernimg {
@@ -46,7 +48,7 @@ nav a {
 #menu {
   text-decoration: none;
   font-weight: bolder;
-  color: cadetblue;
+  color: teal;
   font-size: 2em;
 }
 
@@ -54,6 +56,7 @@ h2 {
   text-align: center;
   margin: 0 auto;
 }
+
 h3 {
   padding-top: 1.5rem;
 }
@@ -140,7 +143,6 @@ textarea {
   font-size: 16px;
   margin-bottom: 24px;
   border-radius: 4px;
-  inset: 1px solid #196774;
 }
 
 form fieldset {
@@ -248,3 +250,4 @@ label {
 
 legend {
   background-color: teal;
+
